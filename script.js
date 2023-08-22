@@ -1,9 +1,7 @@
-const myLibrary = [];
+function game(playerSCore, computerSCore, moves) {
+  
 
-function Book() {
-  // the constructor...
 }
-
-function addBookToLibrary() {
-  // do stuff here
-}
+  
+function playGame ()
+ 
