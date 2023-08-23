@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+<!--Wrap cả layout, content-->
 <div class="appwrapper">
-    <div class="title">Title</div>
+
+    <!--title-->
+    <div class="title">Rock Paper Scissors game</div>
+
+    <!--wrap phần score-->
     <div class="score">
-        <div class="playerscore"></div>
-        <div class="computerscore"></div>
-        <div class="move"></div>
-        <div class="movesleft"></div>
-        <div class="option">
-            <div class="rock"></div>
-            <div class="paper"></div>
-            <div class="scissors"></div>
+
+        <!--điểm player-->
+        <div class="playerscore">
+            <h1>You</h1>
+            <p class="p-count count">0</p>
         </div>
-        <div class="result"></div>
+
+        <!--điểm computer-->
+        <div class="computerscore">
+            <h1>Computer</h1>
+            <p class="c-count count">0</p>
+        </div>
+
+        <div class="move">Choose your move</div>
+
+        <!--Number of moves left before game ends -->
+        <div class="movesleft">Move left: 10</div>
+
+        <!--lựa chọn nước đi-->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+        </div>
     </div>
+
+    <!--Final result of game -->
+    <div class="result"></div>
+
+    <!--Reload the game -->
+    <button class="reload"></button>
+
 </div>
 
-</body>
 
+</body>
 <script src="/script.js"></script>
 </html>
