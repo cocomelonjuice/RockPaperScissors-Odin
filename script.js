@@ -1,9 +1,28 @@
-function game(playerSCore, computerSCore, moves) {
-  
+
+function game(/*playerscore, computerscore, moves*/) {
+    let playerscore = 0;
+    let computerscore = 0;
+    let moves = 0;
+
+    function playGame (){
+        const rockBtn = document.querySelector ('.rock');
+        const paperBtn = document.querySelector ('.paper');
+        const scissorsBtn = document.querySelector ('.scissors');
+        const playerOptions = [rockBtn,paperBtn,scissorsBtn];
+        const computerOptions = ['rock','papers','scissors'];
+
+        playerOptions.forEach (option => {
+            option
+        })
+
+
+    }    
+
+
 
 }
   
-function playGame ()
+
  
 
 
